@@ -1,3 +1,9 @@
-# udacity-project-3
+# Udacity work.
 
-SECTION II: Improve Documentation
+## Description:
+
+Projects of nanodegree
+
+## Files used:
+
+Bikeshare data
