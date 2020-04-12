@@ -54,7 +54,7 @@ def get_filters():
 
     while True:
         city = choice("\nFor what city(ies) do you want do select data, "
-                      "New York City, Chicago or Washington? Use commas "
+                      " Use commas "
                       "to list the names.\n>", CITY_DATA.keys())
         month = choice("\nFrom January to June, for what month(s) do you "
                        "want do filter data? Use commas to list the names.\n>",
@@ -71,7 +71,7 @@ def get_filters():
         if confirmation == 'y':
             break
         else:
-            print("\nLet's try this again!")
+            print("\nDo it again!")
 
     print('-'*40)
     return city, month, day
@@ -345,7 +345,7 @@ def main():
             elif select_data == 'r':
                 break
 
-        restart = choice("\nWould you like to restart?\n\n[y]Yes\n[n]No\n\n>")
+        restart = choice("\nRestart?\n\n[y]Yes\n[n]No\n\n>")
         if restart.lower() != 'y':
             break
 
