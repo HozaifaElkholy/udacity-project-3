@@ -54,7 +54,7 @@ def get_filters():
 
     while True:
         city = choice("\nFor what city(ies) do you want do select data, "
-                      "New York City, Chicago or Washington? Use commas "
+                      " Use commas "
                       "to list the names.\n>", CITY_DATA.keys())
         month = choice("\nFrom January to June, for what month(s) do you "
                        "want do filter data? Use commas to list the names.\n>",
